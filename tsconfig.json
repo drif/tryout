@@ -1,17 +1,14 @@
 {
     "compilerOptions": {
-        "module": "system",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "outFile": "dist/**",
-        "sourceMap": true
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "resolveJsonModule": true
     },
     "include": [
-        "src/**/*"
+      "src/**/*.ts"
     ],
     "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+      "node_modules"
     ]
-}
+  }
